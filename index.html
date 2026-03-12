@@ -1,1 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAD — Modern UI/UX Designer & Digital Creator</title>
+    <meta name="description" content="Professional portfolio of ASAD — a freelance digital creator specializing in Web Design, App Design, AI Image & Video Creation, and UI/UX Design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
 
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">ASAD</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="nav-link" style="color: var(--blue-400); font-weight: 600;">Log In</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">Let's Talk</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-elements">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-grid-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge" data-animate="fade-up">
+                    <span class="badge-dot"></span>
+                    Available for Freelance Work
+                </div>
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    Modern<br>
+                    <span class="gradient-text">UI UX Designer</span>
+                </h1>
+                <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                    Web and App Design · AI Image and Video Creation
+                </p>
+                <p class="hero-tagline" data-animate="fade-up" data-delay="300">
+                    Your Digital Vision, Crafted.
+                </p>
+                <div class="hero-actions" data-animate="fade-up" data-delay="400">
+                    <a href="#portfolio" class="btn btn-primary">
+                        View My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="hero-stats" data-animate="fade-up" data-delay="500">
+                    <div class="stat">
+                        <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Projects Done</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="30">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" data-animate="fade-left" data-delay="300">
+                <div class="hero-mockup-wrapper">
+                    <div class="mockup-glow"></div>
+                    <img src="images/hero-mockup.png" alt="UI Design Mockups on Laptop and Smartphone" class="hero-mockup-img">
+                    <div class="floating-badge fb-1">
+                        <i class="fas fa-palette"></i>
+                        <span>UI Design</span>
+                    </div>
+                    <div class="floating-badge fb-2">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                        <span>AI Creator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="600">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Creative Digital <span class="gradient-text">Professional</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image" data-animate="fade-right">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-glow"></div>
+                        <img src="images/about-photo.png" alt="ASAD - Digital Creator">
+                        <div class="about-img-border"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">3+</span>
+                        <span class="exp-text">Years of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <h3 class="about-subtitle">Hi, I'm <span class="gradient-text">ASAD</span></h3>
+                    <p class="about-description">
+                        I'm a passionate digital creator who transforms ideas into stunning visual experiences. 
+                        I specialize in designing modern websites and mobile applications that not only look 
+                        beautiful but also deliver exceptional user experiences.
+                    </p>
+                    <p class="about-description">
+                        Beyond traditional design, I harness the power of artificial intelligence to create 
+                        breathtaking images and compelling videos. From concept to execution, I bring your 
+                        digital vision to life with cutting-edge tools and creative expertise.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div>
+                                <h4>Web & App Design</h4>
+                                <p>Modern, responsive, pixel-perfect</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div>
+                                <h4>AI Content Creation</h4>
+                                <p>Images, videos & visual effects</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-pen-ruler"></i>
+                            </div>
+                            <div>
+                                <h4>UI/UX Design</h4>
+                                <p>User-centered, intuitive interfaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        Work With Me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                <p class="section-desc">Transforming your ideas into powerful digital experiences with cutting-edge design and AI technology.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-desc">
+                        Custom-designed, responsive websites that captivate visitors and drive results. Modern aesthetics with clean code and smooth animations.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Modern UI/UX</li>
+                        <li><i class="fas fa-check"></i> Fast Performance</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">App Design</h3>
+                    <p class="service-desc">
+                        Intuitive mobile app interfaces that users love. Beautiful designs that balance aesthetics with functionality for seamless experiences.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> iOS & Android</li>
+                        <li><i class="fas fa-check"></i> User-Centered</li>
+                        <li><i class="fas fa-check"></i> Interactive Prototypes</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">AI Image Creation</h3>
+                    <p class="service-desc">
+                        Stunning AI-generated images for your brand. From product visuals to artistic concepts, powered by the latest AI technology.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Photorealistic Images</li>
+                        <li><i class="fas fa-check"></i> Brand Visuals</li>
+                        <li><i class="fas fa-check"></i> Concept Art</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-card-bg"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">AI Video Creation</h3>
+                    <p class="service-desc">
+                        Compelling AI-powered videos that tell your story. Professional motion graphics, animations, and cinematic content creation.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Motion Graphics</li>
+                        <li><i class="fas fa-check"></i> Cinematic Edits</li>
+                        <li><i class="fas fa-check"></i> Social Media Content</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        Get Started <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section" id="process">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">How I Work</span>
+                <h2 class="section-title">My Work <span class="gradient-text">Process</span></h2>
+                <p class="section-desc">A simple, transparent, and structured approach to bringing your digital vision to life.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step" data-animate="fade-up" data-delay="0">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3>Project Discussion</h3>
+                        <p>We discuss your idea and project requirements in detail to understand your goals.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="100">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3>Design & Creation</h3>
+                        <p>I create modern designs and AI content based on your specific needs and brand identity.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="200">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3>Review & Improvements</h3>
+                        <p>You review the work and request changes if needed. We refine until it's perfect.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="300">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3>Final Delivery</h3>
+                        <p>You receive the final professional result with all source files and documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-desc">A showcase of my latest creative work across design and AI-generated content.</p>
+            </div>
+            <div class="portfolio-filters" data-animate="fade-up" data-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Design</button>
+                <button class="filter-btn" data-filter="ai-image">AI Images</button>
+                <button class="filter-btn" data-filter="ai-video">AI Videos</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-animate="fade-up" data-delay="0">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-web.png" alt="Modern Website Design Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">Web Design</span>
+                                <h3>Brand Website Redesign</h3>
+                                <p>Modern, responsive website with sleek UI</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app" data-animate="fade-up" data-delay="100">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-app.png" alt="Mobile App Design Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">App Design</span>
+                                <h3>Finance App Interface</h3>
+                                <p>Clean mobile app with intuitive UX</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai-image" data-animate="fade-up" data-delay="200">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-ai-image.png" alt="AI Generated Image Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">AI Image</span>
+                                <h3>Futuristic Cityscape</h3>
+                                <p>AI-generated cinematic landscape</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai-video" data-animate="fade-up" data-delay="300">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-ai-video.png" alt="AI Video Creation Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">AI Video</span>
+                                <h3>Cinematic AI Reel</h3>
+                                <p>AI-powered motion graphics & VFX</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-animate="fade-up" data-delay="100">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-web.png" alt="E-Commerce Website Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">Web Design</span>
+                                <h3>E-Commerce Platform</h3>
+                                <p>Premium shopping experience design</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app" data-animate="fade-up" data-delay="200">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio-app.png" alt="Health App Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <span class="portfolio-category">App Design</span>
+                                <h3>Health & Fitness App</h3>
+                                <p>Engaging wellness app interface</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">My Expertise</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-animate="fade-up" data-delay="0">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="50">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>App Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="100">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-pen-ruler"></i>
+                    </div>
+                    <h3>UI UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="92"></div>
+                    </div>
+                    <span class="skill-percent">92%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="150">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>AI Image Creation</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                    <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="200">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>AI Video Creation</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="250">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Editing</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="87"></div>
+                    </div>
+                    <span class="skill-percent">87%</span>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="300">
+                    <div class="skill-icon-wrap">
+                        <i class="fas fa-feather-pointed"></i>
+                    </div>
+                    <h3>Content Writing</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Client Reviews</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+                <p class="section-desc">Don't just take my word for it. Here's what people I've worked with have to say about my services.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-animate="fade-up" data-delay="0">
+                    <div class="testimonial-quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Great design work and fast delivery. Highly recommended for web and app design."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://ui-avatars.com/api/?name=Client+One&background=3478ff&color=fff&rounded=true" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Recent Client</h4>
+                            <span>Web & App Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="150">
+                    <div class="testimonial-quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Very creative AI images and videos. Professional and easy to work with."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://ui-avatars.com/api/?name=Client+Two&background=ffd24a&color=fff&rounded=true" alt="Client">
+                        </div>
+                        <div class="author-info">
+                            <h4>Recent Client</h4>
+                            <span>AI Content Creation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+                <p class="section-desc">Have a project in mind? Fill out the form below and let's discuss how I can bring your vision to life.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <div class="contact-info-card">
+                        <h3>Tell Me About Your Project</h3>
+                        <p>The more details you share, the better I can craft your project. Here's what helps:</p>
+                        <ul class="contact-questions">
+                            <li>
+                                <i class="fas fa-circle-question"></i>
+                                What type of project do you need? (Website, App Design, AI Image, AI Video)
+                            </li>
+                            <li>
+                                <i class="fas fa-circle-question"></i>
+                                What is your business or idea about?
+                            </li>
+                            <li>
+                                <i class="fas fa-circle-question"></i>
+                                Do you have any reference design or style you like?
+                            </li>
+                            <li>
+                                <i class="fas fa-circle-question"></i>
+                                What features or pages do you need?
+                            </li>
+                            <li>
+                                <i class="fas fa-circle-question"></i>
+                                When do you need the project completed?
+                            </li>
+                        </ul>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>asadarisar21@gmail.com</span>
+                            </div>
+                            <div class="contact-detail-item">
+                                <i class="fas fa-user"></i>
+                                <span>ASAD</span>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="ASAD" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="asadarisar21@gmail.com" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="" disabled selected>Select project type</option>
+                                <option value="website">Website Design</option>
+                                <option value="app">App Design</option>
+                                <option value="ai-image">AI Image Creation</option>
+                                <option value="ai-video">AI Video Creation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Please describe your project..." required></textarea>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-text">ASAD</span>
+                        <span class="logo-dot">.</span>
+                    </a>
+                    <p>Professional Digital Creator — Designing modern websites, mobile apps, AI images, and videos that bring your digital vision to life.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">App Design</a></li>
+                        <li><a href="#services">AI Image Creation</a></li>
+                        <li><a href="#services">AI Video Creation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ASAD. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> by ASAD</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Supabase SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with Public Key
+            emailjs.init("QAbT0PCMvCD344Nty");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
